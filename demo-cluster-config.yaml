@@ -1,0 +1,49 @@
+apiVersion: v1
+clusters:
+- cluster:
+    certificate-authority-data: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUN5RENDQWJDZ0F3SUJBZ0lCQURBTkJna3Foa2lHOXcwQkFRc0ZBREFWTVJNd0VRWURWUVFERXdwcmRXSmwKY201bGRHVnpNQjRYRFRJd01USXhNREV3TlRFME9Wb1hEVE13TVRJd09ERXdOVEUwT1Zvd0ZURVRNQkVHQTFVRQpBeE1LYTNWaVpYSnVaWFJsY3pDQ0FTSXdEUVlKS29aSWh2Y05BUUVCQlFBRGdnRVBBRENDQVFvQ2dnRUJBTzY3Cng2ZWZTdkNDVStWbjVsQU5YeCtaN0w0aVJKeWZwQjdydTBxdDJXY3RJODJBc05lODM4cDl0WmVJYU9CTU1kUSsKdE1tM3l0SHVPdzJub3U4UjVKZlhTaTdhQUdaUTZOYWh5dlZzZ1BPYW1uY0plWHpoNDBmUUhTUlluUmM1dnNGNwpKWTE1MnE1NUFBMTFJSDBPM2VGY0d2WTBhbm55TmM5RUgwZndqNGdNSUdmVmFka3paZ3lIZjA1SGtmRFNIc1lxCnF4VjlFWU8zZW9NNmdzZms5TlRudWhVV29sbE95ZllMOFNlNGxRV3l3eCtLOTNDV0h5eS9VTm5DcDNJZWpaOC8KZTZ2ZlM4RWNBQlpWL1d1dnltbDR5bFQyNXNjSDNveXFmUG5sblRtUlc1b1RHT0VZZWxXUEpYZjJFaEFxYUc3MgpURFQzUlVZb0I5VmZLR081cHZFQ0F3RUFBYU1qTUNFd0RnWURWUjBQQVFIL0JBUURBZ0trTUE4R0ExVWRFd0VCCi93UUZNQU1CQWY4d0RRWUpLb1pJaHZjTkFRRUxCUUFEZ2dFQkFOTExsRWZIVVQ4dEp6RzBEU2o1WUp6S1BXTzgKczRZcUFJZXpiZGFIZkpwVEdLc05NL0pvSGpCRVVnVkZBQVZYdnRnbGhFd3JWMEhEUjZuMHIrUDUzMTNONzF1QgpicXNPYXBwMTVsZytmaEM1SDFVc0Q1WS9Ec093SnFUQzZlWitOeUJVaFRILzdtRjBqV3E4SmYwRTJkc3NsZjBMCmRiMFA3SjBVMldrZ2JSWUpuUjRMY3Y5dGI4RmR1L3IzalRMZVdnYytVbldCeE1HWEJtbTZhZkRRODNuTzduVlkKTVdYQ2MvMmQ5MjZFZk5zY1pkaHpyUElqUzI1d2wxQUEyWUdmQnEyVVd6Vk1JbGRlNTBRV2g0aEw5a3VZcEttbgpZWXFwRkxFWFM0UjgxV0IzSWkrdUJJS0ZMVlVFbkEyUWhTK1lxRXBJWjBPdGNacUg0WU4vWk5LcVBKaz0KLS0tLS1FTkQgQ0VSVElGSUNBVEUtLS0tLQo=
+    server: https://4EC0291D1D2AF12DE090E19FFD54D8E1.gr7.us-west-2.eks.amazonaws.com
+  name: my-demo-cluster.us-west-2.eksctl.io
+- cluster:
+    certificate-authority-data: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUN5RENDQWJDZ0F3SUJBZ0lCQURBTkJna3Foa2lHOXcwQkFRc0ZBREFWTVJNd0VRWURWUVFERXdwcmRXSmwKY201bGRHVnpNQjRYRFRJd01USXhNREV3TlRFME9Wb1hEVE13TVRJd09ERXdOVEUwT1Zvd0ZURVRNQkVHQTFVRQpBeE1LYTNWaVpYSnVaWFJsY3pDQ0FTSXdEUVlKS29aSWh2Y05BUUVCQlFBRGdnRVBBRENDQVFvQ2dnRUJBTzY3Cng2ZWZTdkNDVStWbjVsQU5YeCtaN0w0aVJKeWZwQjdydTBxdDJXY3RJODJBc05lODM4cDl0WmVJYU9CTU1kUSsKdE1tM3l0SHVPdzJub3U4UjVKZlhTaTdhQUdaUTZOYWh5dlZzZ1BPYW1uY0plWHpoNDBmUUhTUlluUmM1dnNGNwpKWTE1MnE1NUFBMTFJSDBPM2VGY0d2WTBhbm55TmM5RUgwZndqNGdNSUdmVmFka3paZ3lIZjA1SGtmRFNIc1lxCnF4VjlFWU8zZW9NNmdzZms5TlRudWhVV29sbE95ZllMOFNlNGxRV3l3eCtLOTNDV0h5eS9VTm5DcDNJZWpaOC8KZTZ2ZlM4RWNBQlpWL1d1dnltbDR5bFQyNXNjSDNveXFmUG5sblRtUlc1b1RHT0VZZWxXUEpYZjJFaEFxYUc3MgpURFQzUlVZb0I5VmZLR081cHZFQ0F3RUFBYU1qTUNFd0RnWURWUjBQQVFIL0JBUURBZ0trTUE4R0ExVWRFd0VCCi93UUZNQU1CQWY4d0RRWUpLb1pJaHZjTkFRRUxCUUFEZ2dFQkFOTExsRWZIVVQ4dEp6RzBEU2o1WUp6S1BXTzgKczRZcUFJZXpiZGFIZkpwVEdLc05NL0pvSGpCRVVnVkZBQVZYdnRnbGhFd3JWMEhEUjZuMHIrUDUzMTNONzF1QgpicXNPYXBwMTVsZytmaEM1SDFVc0Q1WS9Ec093SnFUQzZlWitOeUJVaFRILzdtRjBqV3E4SmYwRTJkc3NsZjBMCmRiMFA3SjBVMldrZ2JSWUpuUjRMY3Y5dGI4RmR1L3IzalRMZVdnYytVbldCeE1HWEJtbTZhZkRRODNuTzduVlkKTVdYQ2MvMmQ5MjZFZk5zY1pkaHpyUElqUzI1d2wxQUEyWUdmQnEyVVd6Vk1JbGRlNTBRV2g0aEw5a3VZcEttbgpZWXFwRkxFWFM0UjgxV0IzSWkrdUJJS0ZMVlVFbkEyUWhTK1lxRXBJWjBPdGNacUg0WU4vWk5LcVBKaz0KLS0tLS1FTkQgQ0VSVElGSUNBVEUtLS0tLQo=
+    server: https://4EC0291D1D2AF12DE090E19FFD54D8E1.gr7.us-west-2.eks.amazonaws.com
+  name: arn:aws:eks:us-west-2:268711337689:cluster/my-demo-cluster
+contexts:
+- context:
+    cluster: my-demo-cluster.us-west-2.eksctl.io
+    user: K8s-User@my-demo-cluster.us-west-2.eksctl.io
+  name: K8s-User@my-demo-cluster.us-west-2.eksctl.io
+- context:
+    cluster: arn:aws:eks:us-west-2:268711337689:cluster/my-demo-cluster
+    user: arn:aws:eks:us-west-2:268711337689:cluster/my-demo-cluster
+  name: arn:aws:eks:us-west-2:268711337689:cluster/my-demo-cluster
+current-context: arn:aws:eks:us-west-2:268711337689:cluster/my-demo-cluster
+kind: Config
+preferences: {}
+users:
+- name: K8s-User@my-demo-cluster.us-west-2.eksctl.io
+  user:
+    exec:
+      apiVersion: client.authentication.k8s.io/v1alpha1
+      args:
+      - token
+      - -i
+      - my-demo-cluster
+      command: aws-iam-authenticator
+      env:
+      - name: AWS_STS_REGIONAL_ENDPOINTS
+        value: regional
+      - name: AWS_DEFAULT_REGION
+        value: us-west-2
+- name: arn:aws:eks:us-west-2:268711337689:cluster/my-demo-cluster
+  user:
+    exec:
+      apiVersion: client.authentication.k8s.io/v1alpha1
+      args:
+      - --region
+      - us-west-2
+      - eks
+      - get-token
+      - --cluster-name
+      - my-demo-cluster
+      command: aws
